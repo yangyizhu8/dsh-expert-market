@@ -1,0 +1,123 @@
+{
+ "winners": [
+  {
+   "cat": "10-ProjectQuality",
+   "slug": "expert-agent-orchestrator",
+   "name": "调度达",
+   "curated": null,
+   "official": 0,
+   "updated": 1781296200000,
+   "rule": "latest"
+  },
+  {
+   "cat": "08-FinanceInvestment",
+   "slug": "expert-stock-partner-team",
+   "name": "腾讯自选股股票投研专家团",
+   "curated": null,
+   "official": 1,
+   "updated": 1786945168000,
+   "rule": "tencent"
+  },
+  {
+   "cat": "05-MarketingGrowth",
+   "slug": "expert-cross-border-ecommerce-expert",
+   "name": "海跨洋",
+   "curated": null,
+   "official": 0,
+   "updated": 1780611720000,
+   "rule": "latest"
+  },
+  {
+   "cat": "01-ProductDesign",
+   "slug": "expert-behavioral-nudge-engine",
+   "name": "助推推",
+   "curated": null,
+   "official": 0,
+   "updated": 1779479580000,
+   "rule": "latest"
+  },
+  {
+   "cat": "11-SecurityCompliance",
+   "slug": "expert-legal-compliance-reviewer",
+   "name": "律守正",
+   "curated": null,
+   "official": 0,
+   "updated": 1780611720000,
+   "rule": "latest"
+  },
+  {
+   "cat": "06-ContentCreative",
+   "slug": "expert-ppt-creation-expert",
+   "name": "腾讯云知（乐享）",
+   "curated": null,
+   "official": 0,
+   "updated": 1787649487000,
+   "rule": "latest"
+  },
+  {
+   "cat": "04-DataAI",
+   "slug": "expert-ai-hot",
+   "name": "数字生命卡兹克",
+   "curated": 6,
+   "official": 0,
+   "updated": 1778324400000,
+   "rule": "curated#6"
+  },
+  {
+   "cat": "13-TencentZone",
+   "slug": "expert-cloud-ops-team",
+   "name": "腾讯云技术支持",
+   "curated": 6,
+   "official": 1,
+   "updated": 1783945624000,
+   "rule": "curated#6"
+  },
+  {
+   "cat": "12-IndustryConsultant",
+   "slug": "expert-entrepreneurship-coach",
+   "name": "林正刚",
+   "curated": 8,
+   "official": 0,
+   "updated": 1784462400000,
+   "rule": "curated#8"
+  },
+  {
+   "cat": "02-Engineering",
+   "slug": "expert-rum-fullstack-team",
+   "name": "腾讯云 RUM 全链路专家团",
+   "curated": null,
+   "official": 1,
+   "updated": 1778581500000,
+   "rule": "tencent"
+  },
+  {
+   "cat": "09-OperationsHR",
+   "slug": "expert-customer-support-expert",
+   "name": "暖心心",
+   "curated": null,
+   "official": 0,
+   "updated": 1779479580000,
+   "rule": "latest"
+  },
+  {
+   "cat": "07-SalesCommerce",
+   "slug": "expert-sales-coach",
+   "name": "单必成",
+   "curated": null,
+   "official": 0,
+   "updated": 1780515000000,
+   "rule": "latest"
+  },
+  {
+   "cat": "03-GameSpatial",
+   "slug": "expert-godot-game-script-engineer",
+   "name": "节点通",
+   "curated": null,
+   "official": 0,
+   "updated": 1781296200000,
+   "rule": "latest"
+  }
+ ],
+ "failures": [],
+ "ranAt": "2026-09-01T13:29:24.922Z"
+}

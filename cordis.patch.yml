@@ -1,0 +1,10 @@
+# dsh-expert-market bundle patch - mounts the expert market plugin
+# (WorkBuddy expert/expert-team port: market page + install bridge +
+# restriction-aware preset generator) as a profile layer.
+# The insert id MUST match the plugin directory name (check-plugin-ready.mjs
+# gate #3 matches entries by it).
+- insert:
+  - id: dsh-expert-market
+    name: 'dsh-expert-market'
+    config:
+      marketplacesRoot: ''

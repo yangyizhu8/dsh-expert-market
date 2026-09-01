@@ -1,0 +1,11 @@
+# build artifacts that must NOT be committed
+node_modules/
+lib/*.js.map
+*.tsbuildinfo
+
+# dev scratch / extraction dumps (not part of the publishable plugin)
+experiments/
+
+# editor / os
+.DS_Store
+Thumbs.db

@@ -1,0 +1,49 @@
+{
+  "name": "dsh-expert-market",
+  "version": "1.0.0",
+  "description": "DSH 专家市场 — WorkBuddy 专家/专家团体系移植：安装专家=生成 agent preset（文本手术+回读断言），425 个官方专家目录按需安装，内置能力减法声明、开场白、快捷提示词 chip 与成员委派工具",
+  "private": false,
+  "type": "module",
+  "main": "./lib/index.js",
+  "files": [
+    "lib",
+    "resources",
+    "cordis.patch.yml",
+    "src",
+    "scripts",
+    "tsconfig.json",
+    "tsdown.config.ts"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "build:client": "tsdown"
+  },
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "peerDependencies": {
+    "cordis": ">=4.0.0-rc <5",
+    "schemastery": "^3.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "typescript": "^5.9.0",
+    "tsdown": "^0.22.14"
+  }
+}
