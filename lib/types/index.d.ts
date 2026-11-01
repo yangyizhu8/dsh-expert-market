@@ -18,7 +18,7 @@
  */
 import type { Context } from 'cordis';
 import { type AgentPresetsLike } from './market.js';
-import z from 'schemastery';
+import z from '@deepseek-ai/schemastery';
 type RouteResponse = {
     writeHead(status: number, headers: Record<string, string>): RouteResponse;
     end(body?: string): RouteResponse;
