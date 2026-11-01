@@ -18,7 +18,7 @@
  */
 import type { Context } from 'cordis'
 import { MarketService, type AgentPresetsLike, type MarketPackage, type InstallSummary, type PluginJson } from './market.js'
-import z from 'schemastery'
+import z from '@deepseek-ai/schemastery'
 import { existsSync } from 'node:fs'
 import { cp, mkdir } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
